@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS user (
     primary key(id)
 );
 
-INSERT INTO crm.user (email, password) VALUES ("test@mail.com", "1234");
+INSERT INTO crm.user (email, password, name) VALUES ("test@mail.com", "1234", "");
